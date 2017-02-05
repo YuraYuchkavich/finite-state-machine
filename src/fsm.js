@@ -102,7 +102,9 @@
      * Clears transition history
      */
     clearHistory() {
-		
+		this.current2=undefined;
+		this.prev=undefined;
+		this.current=undefined;
 	}
 }
 
